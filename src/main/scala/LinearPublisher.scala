@@ -23,7 +23,7 @@ object LinearPublisher {
     val logger = Logger.getLogger(LinearPublisher.getClass.getName)
 
     val conf = new SparkConf().setMaster("local[*]").setAppName("LinearMLpublisher")
-    val ssc = new StreamingContext(conf, Seconds(2))
+    val ssc = new StreamingContext(conf, Seconds(1))
     ssc.checkpoint("forCheckpoints/")
 
     val Seq(url, topic) = Seq("tcp://127.0.0.1:5555", "lrModel")

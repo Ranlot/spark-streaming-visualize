@@ -15,5 +15,5 @@ do
 	var=$((var+$numbOfLines))
 	selectLines $fileName $var | hadoop fs -fs local -put - $outRoot/streamData.$var
 	echo -e "\e[92m$(date)\e[0m"
-	sleep 1
+	sleep 0.5
 done
