@@ -1,6 +1,6 @@
 * For the sake of simplicity, we prepare a **synthetic data set** consisting of random points `(y, x1, x2)` which approximately satisfy the following linear relationship:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=y%20%5Capprox%20c_1%20x_2%20%2B%20c_2%20x_2&bc=White&fc=Black&im=gif&fs=12&ff=arev&edit=0)  
+`y = c1 x1 + c2 x2 + noise`
 
 where the coefficients `(c1 = 3.2, c2 = 0.6)` and the intensity of the noise serve as control parameters.
 
