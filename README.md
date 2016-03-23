@@ -1,8 +1,4 @@
-* For the sake of simplicity, we prepare a **synthetic data set** consisting of random points `(y, x1, x2)` which approximately satisfy the following linear relationship:
-
-`y = c1 x1 + c2 x2 + noise`
-
-where the coefficients `(c1 = 3.2, c2 = 0.6)` and the intensity of the noise serve as control parameters.
+* For the sake of simplicity, we prepare a **synthetic data set** consisting of random points `(y, x1, x2)` which approximately satisfy the following linear relationship `y = c1 x1 + c2 x2 + noise` where the coefficients `(c1 = 3.2, c2 = 0.6)` and the intensity of the noise serve as control parameters.
 
 - Adopting supervised learning terminology, one may refer to `y` as a **label** and to each instance of `(x1, x2)` as a **feature vector**.  Naturally, the objective then becomes to uncover the values of the coefficients `(c1, c2)` given the feature vectors 
 and their labels. 
