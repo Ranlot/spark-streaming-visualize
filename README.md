@@ -30,4 +30,4 @@ depending on the particular business you happen to be operating in.  Furthermore
 
 **Disclaimer**:
 
-As claimed in the beginning, this project is intended to be a demonstration / tutorial showing that a complex visualization system requiring the wiring together of many disparate technologies can be accomplished quite simply in a few lines of code.  As such, no special care has been given to "portability" or "professionalism".  Rather, the whole enterprise should be considered as a "hack" that may (hopefully) be a source of inspiration for others.
+As claimed in the beginning, this project is intended to be a demonstration / tutorial showing that a complex visualization system requiring the wiring together of many disparate technologies can be accomplished quite simply in a few lines of code.  As such, no special care has been given to _"portability"_ or _"professionalism"_.  Rather, the whole enterprise should be considered as a "hack" that may (hopefully) be a source of inspiration for others.
