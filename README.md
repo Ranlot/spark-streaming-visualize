@@ -1,10 +1,9 @@
 "**Real-time predictive analytics**" has emerged as a topic of growing interest in the data science community.  One factor contributing to the appeal of statistical learning methods based on live streaming data is the ability to generate models that are able to react and adapt themselves to **non-stationary data distribution** in real time (as opposed to batch processing that need to retrain models periodically).
 
-While numerous implementations of online machine learning algorithms are publicly available, it it is not always easy to find candid demonstrations of how to incorporate them into a **real time visualization platform**.  Among its many applications one can see how such a tool would allow not only a deeper insight into the dynamics of the models as well as the possibility of being quickly alerted when models start to misbehave.
+While numerous implementations of online machine learning algorithms are publicly available, it it is not always easy to find candid demonstrations of how to incorporate them into a lightweight **real time visualization platform**.  Among its many applications one can see how such a tool would allow not only a deeper insight into the dynamics of the models as well as the possibility of being quickly alerted when models start to misbehave.
 
 The purpose of this project is to provide a simple demonstration of how one may "hack" together such a flow of data.
-Obviously, one should regard this as basic **toy tutorial** "do it yourself" in order to get started rather than a complete real world
-implementation.
+Obviously, one should regard this as basic **toy tutorial** "do it yourself" in order to get started rather than a complete real world implementation.
 
 * For the sake of simplicity, we prepare a **synthetic data set** consisting of random points `(y, x1, x2)` which approximately satisfy the following linear relationship `y = c1 x1 + c2 x2 + noise` where the coefficients `(c1, c2)` and the intensity of the noise serve as control parameters.
 
